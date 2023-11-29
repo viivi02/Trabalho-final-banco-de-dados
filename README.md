@@ -7,3 +7,5 @@ A padaria "Massa estelar" esta em um momento de grande crescimento de sua demand
 # Modelagem Conceitual
 
 <img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/0c0e314586b601bb2e563b37539d0aebf563731d/Modelo%20conceitual%20(2).png">
+
+# Modelagem Lógica
