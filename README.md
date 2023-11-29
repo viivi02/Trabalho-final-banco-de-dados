@@ -6,4 +6,4 @@ A padaria "Massa estelar" esta em um momento de grande crescimento de sua demand
 
 # Modelagem Conceitual
 
-<img width="50%" src="https://github.com/viivi02/viivi02/blob/6d18af2c3cdeb3b4f4db24f3985eedcbd43ca95c/Working%20Computer%20GIF%20-%20Working%20Work%20Computer%20-%20Discover%20%26%20Share%20GIFs.gif">
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/0c0e314586b601bb2e563b37539d0aebf563731d/Modelo%20conceitual%20(2).png">
