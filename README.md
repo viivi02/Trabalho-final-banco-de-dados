@@ -22,4 +22,5 @@ Funcionarios(**idfuncionario**, nome, telefone, cargo, email, rua, cidade, estad
 Pedidos(**nm_pedido**, data, total, lista de produtos, status)
 <br/>
 Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
+
 <img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/f537913db84310a21947ce048e43f063f598ab36/Modelo_logico.png">
