@@ -75,5 +75,18 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 
 # CRUD
 
+## Inserindo dados nas tabelas por meio de "insert":
 
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/3f7aa1702ba86efde71f80dc7e7d2f01e2a39fd8/CRUD%20Inser%C3%A7%C3%A3o.png">
 
+## Deletando dados atraves de "delete":
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/0979b595b41898e6b24fae3edc2ea7027443545b/CRUD%20Delete.png">
+
+## Fazendo leitura de dados atraves de um "select * from" simples:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/971b0860cf855645559442b025f703e5854bed08/CRUD%20Select.png">
+
+## Alterando dados por meio de "update":
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/3f7aa1702ba86efde71f80dc7e7d2f01e2a39fd8/CRUD%20Inser%C3%A7%C3%A3o.png">
