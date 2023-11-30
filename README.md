@@ -24,3 +24,54 @@ Pedidos(**nm_pedido**, descrição, total, lista de produtos, status)
 Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 
 <img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/fd0bc7378a0b33b463b595c215bd141678a73db6/Modelo_logico1.png">
+
+# Dados
+
+## Segue dados de cada tabela abaixo:
+
+### Cliente:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/a7db0cbdbf19a3995cbd97c29a4bd0cbdbee07ff/Dados%20Clientes.png">
+
+### Produtos:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/a7db0cbdbf19a3995cbd97c29a4bd0cbdbee07ff/Dados%20Produtos.png">
+
+### Funcionarios:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/949c867995c2101cfdd57c5f6d5797fabaf48dfb/Dados%20Funcionarios.png">
+
+### Pedidos:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/0d5e5e5b3ba7ca464fc19922a55f9a9ff793d31e/Dados%20Pedidos.png">
+
+### Fornecedores:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/26a4a2f5d5900c2df2d666c476b2c1394c1c1fe2/Dados%20Fornecedor.png">
+
+### Ingredientes:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/80f31b60e534dabca5f96649804076d8bc28ea53/Dados%20Ingredientes.png">
+
+### Compras:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/7f99c2465e980c7f7025d49b7d70d6aa87bd1e45/Dados%20compras.png">
+
+### Lista_produtos:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/f2a421e684203534f0b235978751e5a65cb5f733/Dados%20Lista_produtos.png">
+
+### Producao:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/25f74f47e2324fa2dc06caf65048ed90f8b295c7/Dados%20producao.png">
+
+### Email:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/f497b12b80b6c24620a280b19dd544fd9057642c/Dados%20email.png">
+
+### Produtos_fornecidos:
+
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/2330a9f6a345e38a1af930b06ff317f3182f518d/Dados%20produtos_fornecidos.png">
+
+
+
