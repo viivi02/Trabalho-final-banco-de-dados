@@ -73,5 +73,7 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 
 <img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/2330a9f6a345e38a1af930b06ff317f3182f518d/Dados%20produtos_fornecidos.png">
 
+# CRUD
+
 
 
