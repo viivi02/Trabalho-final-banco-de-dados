@@ -95,5 +95,13 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 
 ## Abaixo segue 10 consultas no banco de dados:
 
-### Relação de todos os funcionários e seus emails (SELECT Funcionario.Nome, Email.Email FROM Funcionario JOIN Email ON Funcionario.ID = Email.ID;)
-### Achar todos pedidos realizados por um cliente especifico (SELECT Cliente.Nome, Pedido.* FROM Cliente JOIN Pedido ON Cliente.nm_pedido = Pedido.nm_pedido WHERE Cliente.Nome = 'João Silva';)
+### *Relação de todos os funcionários e seus emails* (SELECT Funcionario.Nome, Email.Email FROM Funcionario JOIN Email ON Funcionario.ID = Email.ID;)
+### *Achar todos pedidos realizados por um cliente especifico* (SELECT Cliente.Nome, Pedidos.* FROM Cliente JOIN Pedidos ON Cliente.nm_pedido = Pedidos.nm_pedido WHERE Cliente.Nome = 'João Silva';)
+### *Mostrar todos produtos de um fornecedor específico* (SELECT Fornecedor.Nome AS Fornecedor, Produtos_fornecidos.Produtos FROM Fornecedor JOIN Produtos_fornecidos ON Fornecedor.ID = Produtos_fornecidos.ID ORDER BY Produtos_fornecidos.Produtos;)
+### *Listar todos os produtos de um pedido* (SELECT Pedidos.*, Lista_produtos.Produtos FROM Pedidos JOIN Lista_produtos ON Pedidos.nm_pedido = Lista_produtos.nm_pedido;)
+### *Localizar pedidos de um estado específico* (SELECT Cliente.Nome, Cliente.Estado, Pedidos.* FROM Cliente JOIN Pedidos ON Cliente.nm_pedido = Pedidos.nm_pedido WHERE Cliente.Estado = 'SP';)
+### *Achar somente pedidos com valor superior a 30 reais* (SELECT Pedidos.*, Lista_produtos.Produtos FROM Pedidos JOIN Lista_produtos ON Pedidos.nm_pedido = Lista_produtos.nm_pedido WHERE Pedidos.Total > 30;)
+### *Consulta para mostrar clientes que estão com seus pedidos em status de "andamento"* (SELECT Cliente.Nome, Cliente.Telefone, Pedidos.* FROM Cliente JOIN Pedidos ON Cliente.nm_pedido = Pedidos.nm_pedido WHERE Pedidos.Statusp = 'Em Andamento';)
+### *Procurar todos os produtos com valor entre 5 e 15 reais ordenados pelo seu preço* (SELECT * FROM Produtos WHERE Preco BETWEEN 5 AND 15 ORDER BY Preco;)
+### *Relatorio da idade dos clientes* (SELECT Nome,DATEDIFF(YEAR, datanasc, GETDATE()) - CASE WHEN GETDATE() < DATEADD(YEAR, DATEDIFF(YEAR, datanasc, GETDATE()), datanasc) THEN 1 ELSE 0 END AS Idade FROM Cliente;)
+### *Relatorio de quantidade de produtos que cada funcionario produziu* (SELECT Funcionario.Nome AS Funcionario, COUNT(Producao.cd_barra) AS QuantidadeProdutos FROM Funcionario LEFT JOIN Producao ON Funcionario.ID = Producao.ID GROUP BY Funcionario.Nome;)
