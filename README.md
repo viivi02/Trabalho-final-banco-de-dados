@@ -89,4 +89,4 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 
 ## Alterando dados por meio de "update":
 
-<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/3f7aa1702ba86efde71f80dc7e7d2f01e2a39fd8/CRUD%20Inser%C3%A7%C3%A3o.png">
+<img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/b7e0343cbdcbc4db1808a1e2b7b9b9a19039a3c1/CRUD%20Update.png">
