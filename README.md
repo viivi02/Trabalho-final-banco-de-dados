@@ -105,3 +105,12 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 ### *Procurar todos os produtos com valor entre 5 e 15 reais ordenados pelo seu preço* (SELECT * FROM Produtos WHERE Preco BETWEEN 5 AND 15 ORDER BY Preco;)
 ### *Relatorio da idade dos clientes* (SELECT Nome,DATEDIFF(YEAR, datanasc, GETDATE()) - CASE WHEN GETDATE() < DATEADD(YEAR, DATEDIFF(YEAR, datanasc, GETDATE()), datanasc) THEN 1 ELSE 0 END AS Idade FROM Cliente;)
 ### *Relatorio de quantidade de produtos que cada funcionario produziu* (SELECT Funcionario.Nome AS Funcionario, COUNT(Producao.cd_barra) AS QuantidadeProdutos FROM Funcionario LEFT JOIN Producao ON Funcionario.ID = Producao.ID GROUP BY Funcionario.Nome;)
+
+# Finalizando
+
+## Todas as querys e scripts estão disponiveis por meio dos arquivos aqui no github, sendo necessário apenas SQLServer para rodar os mesmo e verificar os testes aqui citados:
+Query para criar as tabelas: https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/caf95b71db1e1c4bea4aa8020f17dd8b56cd2fa1/SqlQuery_1.sql
+<br/>
+Query para gerar os dados: https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/caf95b71db1e1c4bea4aa8020f17dd8b56cd2fa1/SqlQuery_2.sql
+<br/>
+Query com os Selects: https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/caf95b71db1e1c4bea4aa8020f17dd8b56cd2fa1/SqlQuery_3.sql
