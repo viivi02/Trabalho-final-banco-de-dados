@@ -90,3 +90,10 @@ Fornecedores(**idfornecedor**, nome, endereço, telefone, produtos fornecidos)
 ## Alterando dados por meio de "update":
 
 <img width="100%" src="https://github.com/viivi02/Trabalho-final-banco-de-dados/blob/b7e0343cbdcbc4db1808a1e2b7b9b9a19039a3c1/CRUD%20Update.png">
+
+# Relatórios
+
+## Abaixo segue 10 consultas no banco de dados:
+
+### Relação de todos os funcionários e seus emails (SELECT Funcionario.Nome, Email.Email FROM Funcionario JOIN Email ON Funcionario.ID = Email.ID;)
+### Achar todos pedidos realizados por um cliente especifico (SELECT Cliente.Nome, Pedido.* FROM Cliente JOIN Pedido ON Cliente.nm_pedido = Pedido.nm_pedido WHERE Cliente.Nome = 'João Silva';)
